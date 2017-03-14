@@ -22,6 +22,7 @@ void loop() {
       buttonPushCounter++;
       Serial.println("on");
       Serial.print("number of button pushes:  ");
+      Serial.println(buttonPushCounter);
       
       }
      int positions[] = {10, 50, 90, 120, 150,180};
