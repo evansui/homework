@@ -24,7 +24,7 @@ Case 2:
 	If the temperature exceeds 50 ° c, it means there may be a flood hazard, and the 
 	lamp turns red to indicate a warning.
 	When the temperature is below 20 ° c, the orange light is emitted.
-5. Case 3:
+Case 3:
 	When the humidity is greater than 60%, and the temperature below 20 °c, 
 	it means it is a rainy day (
 	The lights will turn green and blink like breathing.
