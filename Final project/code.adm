@@ -52,6 +52,14 @@ void setup()
 
 void loop() 
 { 
+    //get LED Value
+   Serial.print("Green = ");
+   Serial.println(greenTemp);
+   Serial.print("Red = ");
+   Serial.println(redTemp);
+   Serial.print("Blue = ");
+   Serial.println(blueTemp);
+ 
     //get clock
     RTC.get(rtc,true);
     for(int i=0;i<7;i++)
