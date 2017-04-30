@@ -52,7 +52,7 @@ void setup()
 
 void loop() 
 { 
-    //get LED Value
+    //print LED Value
    Serial.print("Green = ");
    Serial.println(greenTemp);
    Serial.print("Red = ");
